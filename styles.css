@@ -1,0 +1,46 @@
+/* styles.css */
+.code-editor {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.code-toolbar {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#copy-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+#save-button {
+  background-color: #28A745;
+  color: white;
+}
+
+#lock-button {
+  background-color: #FFC107;
+  color: white;
+}
+
+.code-area {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+}
+
+#code[contenteditable="true"] {
+  outline: none;
+}
